@@ -1,12 +1,7 @@
 import {Component} from 'react'
-<<<<<<< HEAD
 import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
-=======
-import Cookies from 'js-cookie'
-import {Redirect} from 'react-router-dom'
->>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 import './index.css'
 
 class LoginForm extends Component {
@@ -26,17 +21,11 @@ class LoginForm extends Component {
   }
 
   onSubmitSuccess = jwtToken => {
-<<<<<<< HEAD
     const {history} = this.props
 
     Cookies.set('jwt_token', jwtToken, {
       expires: 30,
     })
-=======
-    Cookies.set('jwt_token', jwtToken, {expires: 30})
-    const {history} = this.props
-
->>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
     history.replace('/')
   }
 
@@ -55,10 +44,6 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options)
     const data = await response.json()
-<<<<<<< HEAD
-
-=======
->>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token)
     } else {
@@ -109,18 +94,11 @@ class LoginForm extends Component {
   render() {
     const {showSubmitError, errorMsg} = this.state
     const jwtToken = Cookies.get('jwt_token')
-<<<<<<< HEAD
 
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
     }
 
-=======
-    console.log(jwtToken)
-    if (jwtToken !== undefined) {
-      return <Redirect to="/" />
-    }
->>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
     return (
       <div className="login-form-container">
         <img

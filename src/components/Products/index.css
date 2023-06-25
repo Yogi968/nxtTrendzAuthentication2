@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .products-container {
   display: flex;
   flex-direction: column;
@@ -9,22 +8,4 @@
 
 .products-img {
   width: 150px;
-=======
-/* Write your CSS code here */
-.product-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-.product-image {
-  height: 20vh;
-  width: 15vw;
-}
-@media screen and(min-width:992px) {
-  .product-image {
-    height: 40vh;
-    width: 35vw;
-  }
->>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 }
