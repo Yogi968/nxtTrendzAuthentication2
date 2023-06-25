@@ -1,10 +1,18 @@
+<<<<<<< HEAD
 In this project, let's build **Nxt Trendz** app with Protected Route by applying the concepts we have learned till now.
+=======
+In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now.
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 
 ### Refer to the image below:
 
 <br/>
 <div style="text-align: center;">
+<<<<<<< HEAD
     <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-protected-route-output.gif" alt="nxt-trendz-protected-route-desktop-output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+=======
+    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authorisation-output-v2.gif" alt="nxt trendz authentication desktop output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 </div>
 <br/>
 
@@ -39,8 +47,15 @@ In this project, let's build **Nxt Trendz** app with Protected Route by applying
 
 The app must have the following functionalities
 
+<<<<<<< HEAD
 - When an unauthenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the Login Route using the protected route
 - When an authenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the respective route using the protected route
+=======
+- When an unauthenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be redirected to the Login Route
+- When an authenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the respective route
+- When an authenticated user tries to access the Login Route, then the page should be redirected to the Home Route
+- When the Logout button is clicked, then the page should be navigated to the Login Route
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 
 </details>
 
@@ -99,7 +114,49 @@ Returns a response based on the credentials provided
 Use these files to complete the implementation:
 
 - `src/App.js`
+<<<<<<< HEAD
 - `src/components/ProtectedRoute/index.js`
+=======
+- `src/components/LoginForm/index.js`
+- `src/components/Header/index.js`
+- `src/components/Header/index.css`
+- `src/components/Products/index.js`
+- `src/components/Products/index.css`
+- `src/components/Cart/index.js`
+- `src/components/Cart/index.css`
+</details>
+
+### Quick Tips
+
+<details>
+<summary>Click to view</summary>
+<br>
+
+- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
+
+  ```
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  ```
+
+  <br/>
+   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
+
+- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+
+  ```
+    cursor: pointer;
+  ```
+
+  <br/>
+   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
+
+- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+
+  ```
+    outline: none;
+  ```
+
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 </details>
 
 ### Important Note
@@ -128,6 +185,35 @@ Use these files to complete the implementation:
 ### Resources
 
 <details>
+<<<<<<< HEAD
+=======
+<summary>Image URLs</summary>
+
+- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png) alt should be **products**
+- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png) alt should be **cart**
+
+</details>
+
+<details>
+<summary>Colors</summary>
+
+<br/>
+
+<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
+<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
+<div style="background-color: #e6f6ff; width: 150px; padding: 10px; color: black">Hex: #e6f6ff</div>
+<div style="background-color: #d7dfe9; width: 150px; padding: 10px; color: black">Hex: #d7dfe9</div>
+<div style="background-color: #e2e8f0; width: 150px; padding: 10px; color: black">Hex: #e2e8f0</div>
+<div style="background-color: #64748b; width: 150px; padding: 10px; color: black">Hex: #64748b</div>
+<div style="background-color: #0b69ff; width: 150px; padding: 10px; color: white">Hex: #0b69ff</div>
+<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
+<div style="background-color: #0967d2; width: 150px; padding: 10px; color: white">Hex: #0967d2</div>
+
+</details>
+
+<details>
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
 <summary>Font-families</summary>
 
 - Roboto

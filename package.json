@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "nxt-trendz-protected-route",
+=======
+  "name": "nxt-trendz-authentication-2",
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
   "private": true,
   "version": "1.0.0",
   "engines": {
