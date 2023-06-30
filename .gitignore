@@ -23,4 +23,12 @@ yarn-error.log*
 .idea/
 .eslintcache
 .vscode/
+<<<<<<< HEAD
 .results
+=======
+<<<<<<< HEAD
+.results
+=======
+.results
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041

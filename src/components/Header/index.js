@@ -15,13 +15,12 @@ const Header = props => {
     <nav className="nav-header">
       <div className="nav-content">
         <div className="nav-bar-mobile-logo-container">
-          <Link to="/">
-            <img
-              className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-              alt="website logo"
-            />
-          </Link>
+          <img
+            className="website-logo"
+            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            alt="website logo"
+          />
+
           <button
             type="button"
             className="nav-mobile-btn"
@@ -36,13 +35,11 @@ const Header = props => {
         </div>
 
         <div className="nav-bar-large-container">
-          <Link to="/">
-            <img
-              className="website-logo"
-              src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
-              alt="website logo"
-            />
-          </Link>
+          <img
+            className="website-logo"
+            src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
+            alt="website logo"
+          />
           <ul className="nav-menu">
             <li className="nav-menu-item">
               <Link to="/" className="nav-link">
@@ -106,5 +103,4 @@ const Header = props => {
     </nav>
   )
 }
-
 export default withRouter(Header)

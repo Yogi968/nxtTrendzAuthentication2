@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 In this project, let's build a **Nxt Trendz - Products Filters Group** app by applying the concepts we have learned till now.
 
 ### Refer to the images below:
@@ -13,6 +14,23 @@ In this project, let's build a **Nxt Trendz - Products Filters Group** app by ap
 <br/>
 <div style="text-align: center;">
     <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-failure-view-output.gif" alt="products filters group failure output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+=======
+<<<<<<< HEAD
+In this project, let's build **Nxt Trendz** app with Protected Route by applying the concepts we have learned till now.
+=======
+In this project, let's build **Nxt Trendz** app with authentication by applying the concepts we have learned till now.
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+
+### Refer to the image below:
+
+<br/>
+<div style="text-align: center;">
+<<<<<<< HEAD
+    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-protected-route-output.gif" alt="nxt-trendz-protected-route-desktop-output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+=======
+    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authorisation-output-v2.gif" alt="nxt trendz authentication desktop output" style="max-width:90%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 </div>
 <br/>
 
@@ -21,12 +39,21 @@ In this project, let's build a **Nxt Trendz - Products Filters Group** app by ap
 <details>
 <summary>Click to view</summary>
 
+<<<<<<< HEAD
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Products](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-sm-output-v2.png)
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - No Products](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-sm-no-products-output-v0.png)
 - [Extra Small (Size < 576px) and Small (Size >= 576px) - Failure View](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-sm-failure-view-output.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Products](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-lg-output-v2.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - No Products](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-lg-no-products-output.png)
 - [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Failure View](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-lg-failure-view.png)
+=======
+- [Extra Small (Size < 576px), Small (Size >= 576px), and Medium (Size >= 768px) - Login, Login Error, Home](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-sm-outputs.png)
+- [Extra Small (Size < 576px), Small (Size >= 576px), and Medium (Size >= 768px) - Products, Cart](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-sm-products-cart-outputs.png)
+- [Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-login-output.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-lg-home-output.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Products](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authorisation-lg-products-output.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Cart](https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authorisation-lg-cart-output.png)
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 
 </details>
 
@@ -47,6 +74,7 @@ In this project, let's build a **Nxt Trendz - Products Filters Group** app by ap
 
 The app must have the following functionalities
 
+<<<<<<< HEAD
 - When an authenticated user opens the Products Route,
 
   - An HTTP GET request should be made to **productsApiUrl** with `jwt_token` in the Cookies and query parameters `title_search`, `category`, and `rating` with initial values as **empty strings**
@@ -94,6 +122,17 @@ The app must have the following functionalities
   | :------: | :-------: |
   | ratingId |  String   |
   | imageUrl |  String   |
+=======
+<<<<<<< HEAD
+- When an unauthenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the Login Route using the protected route
+- When an authenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the respective route using the protected route
+=======
+- When an unauthenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be redirected to the Login Route
+- When an authenticated user tries to access the Home Route, Products Route or Cart Route, then the page should be navigated to the respective route
+- When an authenticated user tries to access the Login Route, then the page should be redirected to the Home Route
+- When the Logout button is clicked, then the page should be navigated to the Login Route
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 
 </details>
 
@@ -102,6 +141,7 @@ The app must have the following functionalities
 <summary>API Requests & Responses</summary>
 <br/>
 
+<<<<<<< HEAD
 **productsApiUrl**
 
 #### API: `https://apis.ccbp.in/products`
@@ -129,6 +169,32 @@ Returns a response containing the list of Products
     },
       ....
   ]
+=======
+**loginApiUrl**
+
+#### API: `https://apis.ccbp.in/login`
+
+#### Method: `POST`
+
+#### Description:
+
+Returns a response based on the credentials provided
+
+#### Sample Success Response
+
+```json
+{
+  "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhaHVsIiwicm9sZSI6IlBSSU1FX1VTRVIiLCJpYXQiOjE2MTk2Mjg2MTN9.nZDlFsnSWArLKKeF0QbmdVfLgzUbx1BGJsqa2kc_21Y"
+}
+```
+
+#### Sample Failure Response
+
+```json
+{
+  "status_code": 404,
+  "error_msg": "Username is not found"
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 }
 ```
 
@@ -139,10 +205,20 @@ Returns a response containing the list of Products
 
 <br/>
 <div style="text-align: center;">
+<<<<<<< HEAD
     <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-products-filter-group-component-structure-breakdown.png" alt="component-breakdown-structure" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 <br/>
 
+=======
+    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-login-home-component-structure-breakdown.png" alt="nxt trendz authentication login and home component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+<div style="text-align: center;">
+    <img src="https://assets.ccbp.in/frontend/content/react-js/nxt-trendz-authentication-products-cart-component-structure-breakdown.png" alt="nxt trendz authentication products and cart component structure breakdown" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+</div>
+<br/>
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 </details>
 
 <details>
@@ -151,10 +227,57 @@ Returns a response containing the list of Products
 
 Use these files to complete the implementation:
 
+<<<<<<< HEAD
 - `src/components/AllProductsSection/index.js`
 - `src/components/AllProductsSection/index.css`
 - `src/components/FiltersGroup/index.js`
 - `src/components/FiltersGroup/index.css`
+=======
+- `src/App.js`
+<<<<<<< HEAD
+- `src/components/ProtectedRoute/index.js`
+=======
+- `src/components/LoginForm/index.js`
+- `src/components/Header/index.js`
+- `src/components/Header/index.css`
+- `src/components/Products/index.js`
+- `src/components/Products/index.css`
+- `src/components/Cart/index.js`
+- `src/components/Cart/index.css`
+</details>
+
+### Quick Tips
+
+<details>
+<summary>Click to view</summary>
+<br>
+
+- You can use the `box-shadow` CSS property to apply the box-shadow effect to containers
+
+  ```
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+  ```
+
+  <br/>
+   <img src="https://assets.ccbp.in/frontend/content/react-js/box-shadow-img.png" alt="box shadow" style="width:200px" />
+
+- You can use the `cursor` CSS property to specify the mouse cursor to be displayed when pointing over an element
+
+  ```
+    cursor: pointer;
+  ```
+
+  <br/>
+   <img src="https://assets.ccbp.in/frontend/content/react-js/cursor-pointer-img.png" alt="cursor pointer" style="width:100px" />
+
+- You can use the below `outline` CSS property for buttons and input elements to remove the highlighting when the elements are clicked
+
+  ```
+    outline: none;
+  ```
+
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 </details>
 
 ### Important Note
@@ -166,6 +289,7 @@ Use these files to complete the implementation:
 
 **The following instructions are required for the tests to pass**
 
+<<<<<<< HEAD
 - `Home` Route should consist of `/` in the URL path
 - `Login` Route should consist of `/login` in the URL path
 - `Products` Route should consist of `/products` in the URL path
@@ -181,15 +305,38 @@ Use these files to complete the implementation:
 
 - The rating stars images in the route should have the alt attribute value as **rating {ratingId}**
 
+=======
+- `Home` route should consist of `/` in the URL path
+- `Login` route should consist of `/login` in the URL path
+- `Products` route should consist of `/products` in the URL path
+- `Cart` route should consist of `/cart` in the URL path
+- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
+- User credentials
+
+  ```text
+   username: rahul
+   password: rahul@2021
+  ```
+
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 </details>
 
 ### Resources
 
 <details>
+<<<<<<< HEAD
 <summary>Image URLs</summary>
 
 - [https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png) alt should be **no products**
 - [https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-products-error-view.png) alt should be **products failure**
+=======
+<<<<<<< HEAD
+=======
+<summary>Image URLs</summary>
+
+- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png) alt should be **products**
+- [https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png](https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png) alt should be **cart**
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 
 </details>
 
@@ -198,6 +345,7 @@ Use these files to complete the implementation:
 
 <br/>
 
+<<<<<<< HEAD
 <div style="background-color: #f1f5f9; width: 150px; padding: 10px; color: black">Hex: #f1f5f9</div>
 <div style="background-color: #0f172a; width: 150px; padding: 10px; color: white">Hex: #0f172a</div>
 <div style="background-color: #12022f; width: 150px; padding: 10px; color: white">Hex: #12022f</div>
@@ -205,10 +353,26 @@ Use these files to complete the implementation:
 <div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
 <div style="background-color: #0967d2; width: 150px; padding: 10px; color: white">Hex: #0967d2</div>
 <div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+=======
+<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
+<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
+<div style="background-color: #e6f6ff; width: 150px; padding: 10px; color: black">Hex: #e6f6ff</div>
+<div style="background-color: #d7dfe9; width: 150px; padding: 10px; color: black">Hex: #d7dfe9</div>
+<div style="background-color: #e2e8f0; width: 150px; padding: 10px; color: black">Hex: #e2e8f0</div>
+<div style="background-color: #64748b; width: 150px; padding: 10px; color: black">Hex: #64748b</div>
+<div style="background-color: #0b69ff; width: 150px; padding: 10px; color: white">Hex: #0b69ff</div>
+<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
+<div style="background-color: #0967d2; width: 150px; padding: 10px; color: white">Hex: #0967d2</div>
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 
 </details>
 
 <details>
+<<<<<<< HEAD
+=======
+>>>>>>> 8c37e12fdd89f1ba82356662740b794447bdb50c
+>>>>>>> 0d09269b586f366aa859b6e6e8eae720f5f5c041
 <summary>Font-families</summary>
 
 - Roboto

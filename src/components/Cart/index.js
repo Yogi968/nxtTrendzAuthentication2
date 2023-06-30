@@ -1,3 +1,4 @@
+// Write your JS code here
 import Header from '../Header'
 
 import './index.css'
@@ -14,5 +15,4 @@ const Cart = () => (
     </div>
   </>
 )
-
 export default Cart
